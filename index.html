@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <div class="navbar">
+        <h3>Welcome to my computer store</h3>
+    </div>
+    
+    <div class="container">
+
+        
+        <!-- The bank section -->
+        <div class="bank-container">
+            <img src="img/bank.png" alt="">
+            <div class="bank-content">
+                <h4>Joe Banker</h4>
+                <p id="bankTotal">0</span> </p>
+                <span class="right-amount" id="loan" style="display: inline-block;">0.00 kr.</span>
+                <button id="btn-getLoan">Get a loan</button>
+            </div>
+        </div>
+
+        <!-- The work section -->
+        <div class="bank-container">
+            <img src="img/work.png" alt="computer">
+            <div class="bank-content">
+                <h4>Work</h4>
+                <p>Pay <span id="workTotal">nok</span></p> 
+                <button id="btn-repay" class="btn-repay">Repay loan</button>
+                <button id="btnBank">Bank</button>
+                <button id="btnWork">Work</button>
+            </div>
+        </div>
+
+        <!-- The Laptops section -->
+        <div class="bank-container">
+            <img src="img/laptop.png" alt="">
+            <div class="bank-content">
+                <h4>Laptops</h4>
+                <select name="selectLaptops" id="selectLaptops">dsfdsf</select>
+                <p>Features</p>
+                <ul id="featuresLaptop" class="featuresLaptop"></ul>
+            </div>
+        </div>
+    </div>
+        
+        <!-- Info section -->
+        <div id="laptopInfo" class="laptopInfo">
+            <div id="laptopImage" ></div>
+            <div  class="info-container">
+                <h2 id="laptopModel">Classic Notebook</h2> 
+                <p id="laptopDescription"></p>
+            </div>
+            <button id="btn-buyNow">BUY NOW</button>
+            <div class="test">
+                <p>Price - <span id="price"></span></p>
+            </div>
+            <span id="price"></span>
+        </div>
+        
+        
+        
+        
+         <!-- Test section -->
+
+
+        <!-- <p>Price - <span id="price"></span></p> -->
+    <script type="module" src="./script.js"></script>
+
+    
+    </body>
+</html>
+
+
